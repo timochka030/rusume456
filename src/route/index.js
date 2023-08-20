@@ -61,5 +61,16 @@ router.get('/sign', function (req, res) {
   })
 })
 
+// ================================================================
+
+//              ↙ тут вводимо шлях (PATH) до сторінки
+router.get('/insta', function (req, res) {
+  //             ↙ cюди вводимо назву файлу з сontainer
+  res.render('insta', {
+    layout: '456',
+    // ↙ сюди вводимо JSON дані
+  })
+})
+
 // Підключаємо роутер до бек-енду
 module.exports = router
