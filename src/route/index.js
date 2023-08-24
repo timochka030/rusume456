@@ -72,5 +72,16 @@ router.get('/insta', function (req, res) {
   })
 })
 
+// ================================================================
+
+//              ↙ тут вводимо шлях (PATH) до сторінки
+router.get('/myStoris', function (req, res) {
+  //             ↙ cюди вводимо назву файлу з сontainer
+  res.render('myStoris', {
+    layout: '456',
+    // ↙ сюди вводимо JSON дані
+  })
+})
+
 // Підключаємо роутер до бек-енду
 module.exports = router
