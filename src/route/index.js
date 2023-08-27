@@ -83,5 +83,15 @@ router.get('/myStoris', function (req, res) {
   })
 })
 
+// ================================================================
+
+//              ↙ тут вводимо шлях (PATH) до сторінки
+router.get('/play-games', function (req, res) {
+  //             ↙ cюди вводимо назву файлу з сontainer
+  res.render('play-games', {
+    layout: '456',
+    // ↙ сюди вводимо JSON дані
+  })
+})
 // Підключаємо роутер до бек-енду
 module.exports = router
