@@ -1,8 +1,4 @@
-html {
-  max-width: 2000px;
-}
-
-body {
+/* body {
   margin: 32px;
   background: #fff;
 }
@@ -16,4 +12,57 @@ nav {
 
 section {
   padding: 16px;
+} */
+
+html {
+  max-width: 2000px;
+}
+
+span[class='colorRed'] {
+  color: red;
+}
+
+.bgRgb {
+  background: rgb(255, 136, 0);
+}
+
+.bgBrown {
+  background: brown;
+}
+
+.bigCard {
+  height: 1000px;
+  width: 1200px;
+}
+
+.smollCard {
+  height: 250px;
+}
+
+.pCard {
+  height: 75px;
+}
+
+.money {
+  color: green;
+}
+
+*::selection {
+  background-color: red;
+}
+
+.pink {
+  background: pink;
+}
+
+.yellowGreen {
+  background: yellowgreen;
+}
+
+.purple {
+  background: purple;
+}
+
+.red {
+  color: red;
 }
