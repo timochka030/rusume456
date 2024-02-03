@@ -1,0 +1,89 @@
+@keyframes hidden {
+  100% {
+    display: none;
+  }
+}
+
+.page {
+  width: 1200px;
+  padding: 50px;
+  user-select: none;
+}
+
+.game-window {
+  display: flex;
+  background-image: url(../image/background.avif);
+  width: 700px;
+  height: 450px;
+  border-radius: 20px;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-primmaru-menu {
+  display: grid;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 200px;
+  color: #000000;
+  background: #454550;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: white;
+  opacity: 0.9;
+  transition-property: 1;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.button:active {
+  opacity: 1;
+  background: grey;
+  color: #000000;
+  transition-property: 2;
+  transition-duration: 0.5s;
+  transition-delay: 1ms;
+}
+
+.button-play {
+}
+
+select.lavel {
+  background: yellow;
+}
+
+.downloading {
+  cursor: wait;
+  animation-duration: 3s;
+  animation-name: 'rotate';
+}
+
+.subs {
+  display: flex;
+  gap: 10px;
+}
+
+.tik-tok {
+  background-repeat: no-repeat;
+  background-image: url(../../image/svg/tik-tok.svg);
+  width: 30px;
+  height: 35px;
+}
+
+.instagram {
+  background-repeat: no-repeat;
+  background-image: url(../../image/svg/instagram.svg);
+  width: 30px;
+  height: 35px;
+}

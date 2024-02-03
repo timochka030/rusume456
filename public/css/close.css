@@ -1,0 +1,19 @@
+.closed__button {
+  color: white;
+  background: #454545;
+  position: relative;
+  left: 160px;
+  bottom: 20;
+  padding: 5px;
+  width: 30px;
+  border-radius: 10px;
+}
+
+.closed__button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.closed__button:active > div .stor-end {
+  display: none;
+}

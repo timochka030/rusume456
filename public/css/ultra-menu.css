@@ -1,0 +1,31 @@
+.multiselect {
+  width: 40px;
+
+  background-image: url(/image/svg/fish.svg);
+  opacity: 0.5;
+}
+
+.multiselect:hover {
+  opacity: 1;
+  color: rgb(0, 0, 0);
+}
+
+.multiselect:active and body > .opti {
+  background: white;
+  color: rgb(0, 0, 0);
+  opacity: 1;
+  width: 1000px;
+}
+
+.over {
+  color: red;
+}
+
+.over:hover {
+  content: 'hello';
+  background: rgba(255, 0, 0, 0.608);
+}
+
+title:hover {
+  content: 'lox';
+}
