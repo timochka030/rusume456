@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@500&family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans:wght@700&family=Roboto:wght@500;700&family=Rubik+Dirt&display=swap');
+.page {
+  width: 1048px;
+  padding: 24px;
+  font-family: Roboto, sans-serif;
+}
+
+.game-window {
+  font-family: Nova Square, sans-serif;
+  height: 400px;
+  width: 700px;
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 10px;
+  padding: 10px;
+  background: yellowgreen;
+  display: grid;
+}
+
+.icon {
+  height: 32px;
+  width: 36px;
+  display: block;
+
+  background-repeat: no-repeat;
+}
+
+.game-window_icon {
+  background-image: url(/image/svg/fish.svg);
+  cursor: pointer;
+}

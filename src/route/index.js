@@ -93,5 +93,50 @@ router.get('/play-games', function (req, res) {
     // ↙ сюди вводимо JSON дані
   })
 })
+
+// ================================================================
+
+//              ↙ тут вводимо шлях (PATH) до сторінки
+router.get('/game-1', function (req, res) {
+  //             ↙ cюди вводимо назву файлу з сontainer
+  res.render('cuber', {
+    layout: 'game',
+    // ↙ сюди вводимо JSON дані
+  })
+})
+
+// ================================================================
+
+//              ↙ тут вводимо шлях (PATH) до сторінки
+router.get('/game-2', function (req, res) {
+  //             ↙ cюди вводимо назву файлу з сontainer
+  res.render('game-2', {
+    layout: 'game-2',
+    // ↙ сюди вводимо JSON дані
+  })
+})
+
+// ================================================================
+
+//              ↙ тут вводимо шлях (PATH) до сторінки
+router.get('/game-2-play', function (req, res) {
+  //             ↙ cюди вводимо назву файлу з сontainer
+  res.render('game-2-play', {
+    layout: 'game-2',
+    // ↙ сюди вводимо JSON дані
+  })
+})
+
+// ================================================================
+
+//              ↙ тут вводимо шлях (PATH) до сторінки
+router.get('/game-2-play-playing', function (req, res) {
+  //             ↙ cюди вводимо назву файлу з сontainer
+  res.render('playing', {
+    layout: 'game-2',
+    // ↙ сюди вводимо JSON дані
+  })
+})
+
 // Підключаємо роутер до бек-енду
 module.exports = router

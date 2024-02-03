@@ -1,3 +1,56 @@
+@media screen and (width > 500px) {
+  .page {
+    width: 800px;
+  }
+}
+
+@media screen and (width < 500px) {
+  .page {
+    max-width: 320px;
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+/* @keyframes fly {
+  from {
+    background: blue;
+    padding: 5px;
+    top: 0;
+    left: 0;
+  }
+
+  25% {
+    background: green;
+    padding: 10px;
+    top: 500;
+    left: 500;
+  }
+
+  50% {
+    background: red;
+    padding: 3px;
+    top: 0;
+    left: 400;
+  }
+
+  75% {
+    background: purple;
+    padding: 10px;
+    top: 110;
+    left: -200;
+  }
+
+  to {
+    background: rgb(255, 225, 0);
+    padding: 3px;
+    top: 50;
+    left: -20;
+  }
+} */
+
 /* body {
   margin: 32px;
   background: #fff;
@@ -16,6 +69,8 @@ section {
 
 html {
   max-width: 2000px;
+
+  background-image: url(/image/background-geometric.html);
 }
 
 span[class='colorRed'] {
@@ -48,7 +103,7 @@ span[class='colorRed'] {
 }
 
 *::selection {
-  background-color: red;
+  background-color: rgba(0, 255, 234, 0.393);
 }
 
 .pink {
@@ -65,4 +120,120 @@ span[class='colorRed'] {
 
 .red {
   color: red;
+}
+
+.title_padding {
+  padding-top: 24px;
+  padding-bottom: 0;
+  text-shadow: 3px 1px 0px rgb(255, 0, 0);
+}
+
+.card_on {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 5px;
+  min-height: 300px;
+
+  margin: 10px;
+
+  display: block;
+}
+
+.row > .card_on:hover {
+  background: rgba(77, 77, 77, 0.079);
+}
+
+.img_card {
+  height: 250px;
+}
+
+.grey {
+  color: grey;
+}
+
+textarea {
+  width: 215px;
+  height: 75px;
+  scrollbar-shadow-color: blue;
+}
+
+h3 > span {
+  color: red;
+  border: 1px solid yellow;
+  border-radius: 20px;
+  padding: 3px;
+  background: orange;
+}
+
+.card-1-text {
+  padding-top: 50px;
+}
+
+.card-storis {
+  border-radius: 12px;
+  border: 1px solid #dee2e6;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.image {
+  border-radius: 12px;
+}
+
+.padding_off {
+  padding-bottom: 0;
+}
+
+.style {
+  text-decoration: none;
+
+  background: blue;
+  color: dark;
+
+  border-radius: 12px;
+
+  padding: 3px;
+}
+
+.style {
+  animation-name: fly;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+
+  /* animation-delay: 3s; */
+
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+
+  animation-fill-mode: both;
+}
+
+body:hover .style {
+  animation-play-state: running;
+}
+
+.myCard {
+  outline: 1px solid #000000;
+  padding: 5px;
+  border-radius: 10px 20px;
+}
+
+.myCard:hover {
+  background: rgba(102, 82, 82, 0.056);
+}
+
+.block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+  border-bottom: 1px solid #dee2e6;
+}
+
+.image-2024 {
+  position: sticky;
+  border-radius: 10px;
 }
